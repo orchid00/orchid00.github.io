@@ -2,6 +2,6 @@
 
 ## R handouts
 
-- [Introduction to RStudio](RStudioIntroNotebook.html) 
+- [Introduction to RStudio](https://orchid00.github.io/RStudioIntroNotebook.html) 
 
 
