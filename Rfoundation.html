@@ -339,7 +339,7 @@ if (window.hljs) {
 <p>There are four main panels on RStudio. We will soon work on these panels, but first be shortly introduced.</p>
 <ol type="1">
 <li>The upper-left panel is the editor where we interact with code and scripts.</li>
-<li>The panel in the upper-right, where it says <em>Environment is empty</em> will show you the variables that you are currently working with.</li>
+<li>The panel in the upper-right, where it says <em>Environment is empty</em> will show you the objects that you are currently working with.</li>
 <li>The lower-left panel is called the console, which runs the R code. It only saves the code temporarily so it is mostly used as testing ground.</li>
 <li>The panel in the bottom-right will display files, plots, packages, help and more.</li>
 </ol>
@@ -386,18 +386,18 @@ if (window.hljs) {
 </ul>
 </section>
 </section>
-<section id="r-variables-or-objects" class="level1">
-<h1>R variables or objects</h1>
-<p>R can calculate, but we would also like to save these results. We can store one or multiple values in <em>variables</em> to access them later.</p>
+<section id="r-objects" class="level1">
+<h1>R objects</h1>
+<p>R can calculate, but we would also like to save these results. We can store one or multiple values in <em>objects</em> to access them later.</p>
 <ul>
-<li>Syntax: <strong>variableName &lt;- value</strong></li>
+<li>Syntax: <strong>objectName &lt;- value</strong></li>
 <li>Notice the symbol <strong>&lt;-</strong> its called <strong>assignment operator</strong><br />
 </li>
 <li>Values can be fixed, calculated or a result of a transformation</li>
 </ul>
 <p>When in doubt of naming conventions and style check<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a>.</p>
-<p>Let’s create a few variables together</p>
-<pre class="r"><code># Creating a few variables --------------------------
+<p>Let’s create a few objects together</p>
+<pre class="r"><code># Creating a few objects --------------------------
 
 # text should be inside double quotes
 today &lt;- &quot;Monday&quot;
@@ -408,7 +408,7 @@ howManyPeople &lt;- 21
 myAnswer &lt;- TRUE</code></pre>
 <section id="exercise-6---naming-and-syntax-4-min" class="level2">
 <h2>Exercise 6 - Naming and syntax (4 min)</h2>
-<p>Now, stop for a sec and have a look at the style guide<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a> again and discuss with your neighbour. If you are keen and there is time, feel free to change the values of the variables we just created.</p>
+<p>Now, stop for a sec and have a look at the style guide<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a> again and discuss with your neighbour. If you are keen and there is time, feel free to change the values of the objects we just created.</p>
 </section>
 </section>
 <section id="functions" class="level1">
@@ -427,25 +427,25 @@ myAnswer &lt;- TRUE</code></pre>
 <li>Press <strong>F1</strong> or <strong>command F1</strong> on the functionName</li>
 </ol>
 <p>From now on, I will encourage you to use the help for any new function you encounter.</p>
-<section id="exercise-7---using-the-help-on-rstudio-to-find-your-variables-1-min" class="level2">
-<h2>Exercise 7 - Using the help on RStudio to find your variables (1 min)</h2>
+<section id="exercise-7---using-the-help-on-rstudio-to-find-your-objects-1-min" class="level2">
+<h2>Exercise 7 - Using the help on RStudio to find your objects (1 min)</h2>
 <ul>
 <li>What does <code>ls</code> stand for?</li>
 <li>test <code>ls()</code> on your script</li>
-<li>How many variables do you have in your environment?</li>
+<li>How many objects do you have in your environment?</li>
 </ul>
 </section>
 </section>
 <section id="r-data-types" class="level1">
 <h1>R data types</h1>
-<p>We had created these three variables with specific R data types</p>
+<p>We had created these three objects with specific R data types</p>
 <ul>
 <li>numeric</li>
 <li>logical</li>
 <li>character</li>
 </ul>
-<section id="exercise-8---check-the-r-data-type-of-your-variables-using-class-2-min" class="level2">
-<h2>Exercise 8 - Check the R data type of your variables using <code>class</code> (2 min)</h2>
+<section id="exercise-8---check-the-r-data-type-of-your-objects-using-class-2-min" class="level2">
+<h2>Exercise 8 - Check the R data type of your objects using <code>class</code> (2 min)</h2>
 <ul>
 <li>Articulate a description of each R data type</li>
 </ul>
@@ -511,7 +511,7 @@ mydata &lt;- read.csv(file = &quot;data/example.csv&quot;)</code></pre>
 <ul>
 <li>Use the code above to import data into R.<a href="#fn11" class="footnote-ref" id="fnref11"><sup>11</sup></a></li>
 <li>It is recommended that you always use the help to find out more about the new functions before using them.<a href="#fn12" class="footnote-ref" id="fnref12"><sup>12</sup></a></li>
-<li>checkout the function <code>str</code> with your new variable</li>
+<li>checkout the function <code>str</code> with your new object</li>
 </ul>
 </section>
 <section id="exercise-13---lets-discuss" class="level2">
