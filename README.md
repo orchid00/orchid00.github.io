@@ -9,6 +9,6 @@ A similar lesson with a few more exercises
 
 ggplot2
 - [Basic xamples of graphics using ggplot2](https://orchid00.github.io/ggplot2_examples.html)
-- [Raincloud plots tidy](https://orchid00.github.io/tidy_raincloudplot.html)
+- [Raincloud plots tidy](https://orchid00.github.io/tidy_raincloudplot)
 
 
